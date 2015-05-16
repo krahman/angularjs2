@@ -13,3 +13,4 @@ $ cd angularjs2
 ```bash
 $ npm start
 ```
+* Finally goto your http://localhost:8000
