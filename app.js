@@ -1,3 +1,14 @@
+function Arema() {}
+
+Arema.annotations = [
+	new angular.ComponentAnnotation({
+		selector: 'Arema'
+	}),
+	new angular.ViewAnnotation({
+		template: '<div>Malas Utas Awij</div>'
+	})
+];
+
 function MalangJs() {}
 
 MalangJs.annotations = [
@@ -5,7 +16,8 @@ MalangJs.annotations = [
 		selector: 'malangjs'
 	}),
 	new angular.ViewAnnotation({
-		template: '<div><h1>Hello MalangJS</h1></div>'
+		directives: [Arema],
+		template: '<div><h1>Hello MalangJS</h1><Arema></div>'
 	})
 ];
 
