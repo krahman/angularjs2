@@ -1,14 +1,13 @@
 {
   "name": "angularjs2",
   "version": "1.0.0",
-  "description": "Angular 2 Fundamentals",
+  "description": "Angular 2 Fundamentals (ES5)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1"
   },
-  "author": "",
+  "author": "khal.rahman@gmail.com",
   "license": "MIT",
   "dependencies": {
     "http-server": "^0.8.0"
